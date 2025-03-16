@@ -1,4 +1,4 @@
-public class Student extends Person{
+class Student extends Person{
     protected String myIdNum;
     protected double myGPA;
 
@@ -10,29 +10,30 @@ public class Student extends Person{
 
     //Getter Methods
 
-    public String getMyIdNum() {
+    public String getIdNum() {
         return myIdNum;
     }
 
-    public double getMyGPA() {
+    public double getGPA() {
         return myGPA;
     }
 
     //Setter Methods
 
 
-    public void setMyIdNum(String myIdNum) {
+    public void setIdNum(String idNum) {
         this.myIdNum = myIdNum;
     }
 
-    public void setMyGPA(double myGPA) {
+    public void setGPA(double gpa) {
         this.myGPA = myGPA;
     }
 
     @Override
     public String toString() {
         return super.toString() +
-                "Student ID: '" + myIdNum + '\'' +
-                ", GPA: " + myGPA;
+                ", Student ID: '" + myIdNum + '\'' +
+                ", GPA: " + myGPA + '\''
+                ;
     }
 }

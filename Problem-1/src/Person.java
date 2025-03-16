@@ -1,4 +1,4 @@
-public class Person {
+class Person {
     protected String myName;
     protected int myAge;
     protected String myGender;
@@ -11,37 +11,37 @@ public class Person {
 
     // Getter methods
 
-    public String getMyName() {
+    public String getName() {
         return myName;
     }
 
-    public int getMyAge() {
+    public int getAge() {
         return myAge;
     }
 
-    public String getMyGender() {
+    public String getGender() {
         return myGender;
     }
 
     // Setter methods
 
 
-    public void setMyName(String myName) {
+    public void setName(String name) {
         this.myName = myName;
     }
 
-    public void setMyAge(int myAge) {
+    public void setAge(int age) {
         this.myAge = myAge;
     }
 
-    public void setMyGender(String myGender) {
+    public void setGender(String gender) {
         this.myGender = myGender;
     }
 
     @Override
     public String toString() {
         return "Name: '" + myName + '\'' +
-                ", myAge: " + myAge +
-                ", myGender: '" + myGender + '\'';
+                ", Age: " + myAge +
+                ", Gender: '" + myGender + '\'';
     }
 }
