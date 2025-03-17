@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Problem-1/Problem-1.iml" filepath="$PROJECT_DIR$/Problem-1/Problem-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problem-2/Problem-2.iml" filepath="$PROJECT_DIR$/Problem-2/Problem-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Term3-Java-QAP3.iml" filepath="$PROJECT_DIR$/Term3-Java-QAP3.iml" />
     </modules>
   </component>
