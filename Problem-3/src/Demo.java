@@ -8,7 +8,7 @@ public class Demo {
         shapes[1] = new Ellipse("Ellipse1", 6.0, 4.0);
         shapes[2] = new Triangle("Triangle1", 3.0, 4.0, 5.0);
         shapes[3] = new EquilateralTriangle("EqTriangle1", 6.0);
-        shapes[4] = new Ellipse("Ellipse2", 8.0, 3.0);
+        shapes[4] = new Ellipse("Ellipse2", 8.0, 4.0);
 
         // Display shapes
         System.out.println("Shape Information:");
